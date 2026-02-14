@@ -1,0 +1,285 @@
+input[type=text],input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid rgb(91, 91, 240);
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:#3586ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .nav-link:hover{
+    color: white;
+  }
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(91,91,240);
+    
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    overflow-x: hidden !important;
+  }
+
+  textarea{
+    height: 160px !important;
+  }
+  
+  .hh {
+  
+    margin-top: 5%;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  .column h3{
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 1.5px;
+
+  }
+
+  .column p{
+    color: rgb(248, 248, 248, 0.7);
+    font-size: 1.7rem;
+  }
+
+
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .bubblescontainer1 {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+  
+@media screen and (max-width:1280px) {
+  .column h3{
+    font-size: 130%;
+  }
+  input[type=text],input[type=number], select, textarea {
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    resize: vertical;
+  }
+  textarea{
+    height:124px !important;
+  }
+  
+}
+@media screen and (max-width:1120px) and (min-width:880px) {
+  .column h3{
+    font-size: 130%;
+  }
+  input[type=text],input[type=number], select, textarea {
+    padding: 3px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    resize: vertical;
+  }
+  textarea{
+    height:80px !important;
+  }
+  
+}
+@media screen and (max-width:880px) and (min-width:740px) {
+  .column h3{
+    font-size: 110%;
+  }
+  .column p{
+    font-size: 100%;
+  }
+  input[type=text],input[type=number], select, textarea {
+    padding: 3px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    resize: vertical;
+  }
+  textarea{
+    height:40px !important;
+  }
+  
+}
+@media screen and (max-width:740px) and (min-width:0px) {
+  .row{
+    flex-direction: column;
+    margin: auto 0 !important;
+    justify-content: center;
+    padding: 0;
+  }
+  .column{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0 60px 60px 60px;
+  }
+  .column h3{
+    font-size: 130%;
+  }
+  input[type=text],input[type=number], select, textarea {
+    width: 100%;
+    padding: 3px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    resize: vertical;
+  }
+  textarea{
+    height:80px !important;
+  }
+  
+}
+/* faqs */
+
+.containerf { 
+  font-family: Arial, sans-serif; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+  padding: 20px; 
+margin-top: 100px;
+} 
+
+h1 { 
+  text-align: center; 
+  font-size: 36px; 
+  margin-bottom: 20px; 
+} 
+
+.question { 
+  font-weight: bold; 
+  font-size: 20px;
+  margin-top: 40px; 
+  margin-bottom: 30px; 
+  cursor: pointer; 
+
+} 
+.question:after {
+content: '\02795';
+/* Unicode character for "plus" sign (+) */
+font-size: 20px;
+color: #777;
+float: right;
+margin-left: 5px;
+margin-bottom: 20px;
+}
+hr{
+margin-top: 50px;
+background-color: white;
+}
+
+.answer { 
+  margin-bottom: 20px; 
+  display: none; 
+  font-size: 20px;
+} 
+
+.answer p { 
+  margin: 0; 
+  line-height: 1.5; 
+} 
+
+.answer.active { 
+  display: block; 
+} 
+
+/* FOOTER SECTION STARTS BELOW */
+
+.footer-about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: linear-gradient(315deg, #0d40ae, #ff0058);
+  /* change color and min height here to observe difference between footer and calculator last row */
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(315deg, #0d40ae, #ff0058)!important;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .social-icon,
+footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 10px
+}
+
+footer .social-icon li,
+footer .menu li {
+  list-style: none;
+}
+
+footer .social-icon li a {
+  font-size: 2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .social-icon li a:hover {
+  color:orangered;
+}
+
+footer .menu li a {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 5px 10px;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+footer .menu li a:hover {
+  opacity: 1;
+}
+
+
+.foot-down{
+  display:flex;
+  flex-wrap:wrap;
+  padding:2rem;
+  width:100%;
+  justify-content:center;
+  font-size: 1.3em;
+  background: linear-gradient(315deg, #0d40ae, #ff0058)!important;
+}
+/* ==================footer end========================== */

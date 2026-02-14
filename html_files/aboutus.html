@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css_files/aboutus.css">
+  <link rel="icon" href="../assets/Image/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css_files/indexstyle.css" />
+    <link rel="stylesheet" href="../js_files/go_to_top.js">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css_files/go_to_top.css">  </head>
+    <link rel="stylesheet" href="../css_files/translate.css">
+   <title>About Us</title>
+
+  <body>
+    <!-- HEADER CONTAINS THE STICKY NAVBAR -->
+    <button class="gotop">
+      <img src="../assets/Image/upButton.png" alt="arrow up">
+  </button>
+    <header>
+      <nav class="navbar">
+        <a href="../index.html"><div class="logo">Fun nums Calculator</div></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="../index.html#hero" class="nav-link">
+              <i class="ri-home-line"></i> Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="../index.html#calculators" class="nav-link">
+              <i class="ri-function-line"></i> Calculators</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="../html_files/aboutus.html" class="nav-link">
+              <i class="ri-sort-desc"></i>About</a
+            >
+          </li>
+          <li>
+            <a href="../html_files/contact.html" class="nav-link"> <i class="ri-contacts-book-line"></i>Contact</a>
+          </li>
+          <li>
+            <div id="google_translate_element"></div>
+            <script src="js_files/translate.js"></script>
+     
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                    {pageLanguage: 'en'},
+                    'google_translate_element'
+                );
+            }
+        </script>
+     
+        <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+        </script>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div class="about-section">
+      <div>
+        <h1 class="heading">Fun nums Calculator</h1>
+        <p class="text">Every calculation, done right on the spot!</p>
+      </div>
+    </div>
+
+    <div class="mission">
+      <h2 style="text-align: center">Our Mission</h2>
+      <p class="para">
+        Fun nums Calculator mission is to provide fast, accurate, and interactive calculation tools, simplifying conversions and arithmetic for users everywhere.
+      </p>
+    </div>
+     <div class="stats" id="stats">
+      <h2 style="text-align: center">Our Stats</h2>
+      <div class="container3">
+        <div class="counter-grid">
+          <div class="counter-item">
+            <i class="fa fa-solid fa-user fa-4x"></i>
+            <p>User</p>
+            <h1 class="counter" data-target="1000">0</h1>
+          </div>
+          <div class="counter-item">
+            <i class=" fa fa-solid fa-check fa-4x"></i>
+            <p>User Benefitted</p>
+            <h1 class="counter" data-target="800">0</h1>
+          </div>
+        
+          <div class="counter-item">
+            <i class=" fa fa-calculator fa-4x"></i>
+            <p>Calculators</p>
+            <h1 class="counter" data-target="100">0</h1>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+   
+
+    
+        <!-- FOOTER SECTION BELOW -->
+
+        <div class="footer-about" id="about">
+          <footer>
+            <ul class="social-icon">
+              <li>
+                <a href="https://www.linkedin.com/in/prajyoth-rai-b-ba7881286/" target="_blank"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/prajyothraib" target="_blank"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </li>
+              
+            </ul>
+          <ul class="menu">
+                <li class="footer-links"><a href="../index.html#hero">Home</a></li>
+                <li class="footer-links"><a href="../index.html#calculators">Calculators</a></li>
+
+              </ul>
+           
+          </footer>
+        </div>
+        <div class="foot-down">
+          <p>Copyright © SCEM 2026 All Rights Reserved </p>
+        <p >
+          <span style="padding-left: 1rem; padding-right: 1rem;"> | </span> Created by
+          <a href="https://github.com/prajyothraib" target="_blank"
+            >Prajyoth Rai B</a
+          >
+        </p>
+        </div>
+    
+        <!-- -------------------------------------------------------------------------- -->
+       
+    <div class="scrollToTopContainer">
+      <button id="scrollToButton" class="HideElement scrollToTopButton" title="Click to scroll top">
+        <div class="top"><img src="./assets/Image/Chevron.svg" alt="Scroll-To-Top" /></div>
+      </button>
+    </div>
+
+    <script src="../js_files/go_to_top.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script  
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="../js_files/script.js"></script>
+    <script src="../js_files/g"></script>
+    <script src="../js_files/contributors.js"></script>
+  </body>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobileMenu);
+    function mobileMenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+    const navLink = document.querySelectorAll(".nav-link");
+
+    navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+    function closeMenu() {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+    }
+  </script>
+   <script>
+    let section_counter = document.querySelector('#stats');
+    let counters = document.querySelectorAll('.counter-item .counter');
+    
+    // Scroll Animation
+    
+    let CounterObserver = new IntersectionObserver(
+      (entries, observer) => {
+        let [entry] = entries;
+        if (!entry.isIntersecting) return;
+    
+        let speed = 200;
+        counters.forEach((counter, index) => {
+          function UpdateCounter() {
+            const targetNumber = +counter.dataset.target;
+            const initialNumber = +counter.innerText;
+            const incPerCount = targetNumber / speed;
+            if (initialNumber < targetNumber) {
+              counter.innerText = Math.ceil(initialNumber + incPerCount);
+              setTimeout(UpdateCounter, 40);
+            }
+          }
+          UpdateCounter();
+    
+          if (counter.parentElement.style.animation) {
+            counter.parentElement.style.animation = '';
+          } else {
+            counter.parentElement.style.animation = `slide-up 0.3s ease forwards ${
+              index / counters.length + 0.5
+            }s`;
+          }
+        });
+        observer.unobserve(section_counter);
+      },
+      {
+        root: null,
+        threshold: window.innerWidth > 768 ? 0.4 : 0.3,
+      }
+    );
+    
+    CounterObserver.observe(section_counter);
+      
+    </script>
+</html>
